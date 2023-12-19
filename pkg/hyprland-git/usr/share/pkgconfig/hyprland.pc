@@ -1,0 +1,8 @@
+prefix=/usr
+includedir=${prefix}/include
+
+Name: Hyprland
+Description: Hyprland header files
+URL: https://github.com/hyprwm/Hyprland
+Version: 0.28.0
+Cflags: -I${includedir} -I${includedir}/hyprland/protocols -I${includedir}/hyprland/wlroots
